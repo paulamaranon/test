@@ -1,0 +1,6 @@
+import csv
+
+lines = []
+with open("C:/Users/paula/Documents/UK LAPTOP/17 GITHUB/workspace/timeseries/claims.txt", "r") as f:
+    for line in f.readlines():
+        lines.append(line[:-1])
